@@ -5,6 +5,20 @@ public abstract class produto{
 	private String nome;
 	private int    qtdEstoque;
 
-	//Tudo oque sei é que nada sei
+	public void setFabricante(String  fabricante){
+		this.fabricante = fabricante;
+	}
+
+	public void setValor(double valor){
+		this.valor = valor;
+	}
+
+	public void setNome(String nome){
+		this.nome = nome;
+	}
+
+	public void setNome(int    qtdEstoque){
+		this.qtdEstoque = qtdEstoque;
+	}
 
 }
