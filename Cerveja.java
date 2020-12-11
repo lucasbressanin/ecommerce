@@ -1,18 +1,10 @@
-public class Cerveja abstract class Produto{
+import java.util.Date;
 
-
-	private double teorAlcoolico;
-	private String dataValidade;
+public class Cerveja extends Produto {
+	double teor_alcolico;
+	Date validade;
 	
-
-	public void setTeor(double teorAlcoolico){
-		this.teorAlcoolico = teorAlcoolico;
+	public Cerveja(String name, double value) {
+		super(name, value);
 	}
-
-	public void setValidade(String dataValidade){
-		this.Validade = dataValidade;
-	}
-
-	
-
 }
